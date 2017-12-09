@@ -1,0 +1,15 @@
+# edX
+Microsoft: DEV236x Introduction to Python: Absolute Beginner
+shirt = input("Enter the shirt size you you want, S, M, L, XL")
+if shirt.isdigit() == True:
+    print(shirt,"is a number. Please do not include numbers. Try again.")
+elif shirt.lower() == "s":
+    print("A",shirt,"or, Small shirt, is $6 dollars.")
+elif shirt.lower() == "m":
+    print("A",shirt,"or, Medium shirt, is $7 dollars.")
+elif shirt.lower() == "l":
+    print("A",shirt,"or, Large shirt, is $8 dollars.")
+elif shirt.lower() == "xl":
+    print("A",shirt,"or, Extra Large shirt, is $9 dollars.")
+else:
+    print(shirt, "is not available. Try again.")
